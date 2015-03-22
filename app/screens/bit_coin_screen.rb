@@ -5,7 +5,7 @@ class BitCoinScreen < PM::Screen
   def on_load
     @state = {
       bitcoin_prices: {},
-      last_fetched: nil,
+      last_fetched_date: nil,
       currency: "USD",
       currencies: [ "USD", "AUD", "CAD", "EUR" ],
     }
